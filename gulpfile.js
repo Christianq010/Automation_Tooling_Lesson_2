@@ -4,7 +4,7 @@ var sass = require('gulp-sass');
 var watch = require('gulp-watch');
 
 
-gulp.task('default', function() {
+gulp.task('default', ['styles'], function() {
 	console.log('Hello World!');
 });
 
