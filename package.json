@@ -1,0 +1,25 @@
+{
+  "name": "automation_tooling_lesson2",
+  "version": "1.0.0",
+  "description": "project set up to test dependencies",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christianq010/Automation_Tooling_Lesson_2.git"
+  },
+  "author": "Udacity",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Christianq010/Automation_Tooling_Lesson_2/issues"
+  },
+  "homepage": "https://github.com/Christianq010/Automation_Tooling_Lesson_2#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
