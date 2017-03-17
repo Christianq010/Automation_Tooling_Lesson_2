@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/Christianq010/Automation_Tooling_Lesson_2#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-watch": "^4.3.11",
+    "install": "^0.8.7",
+    "npm": "^4.4.1"
   }
 }

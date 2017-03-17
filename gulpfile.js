@@ -1,9 +1,16 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
+var watch = require('gulp-watch');
+// var browserSync = require('browser-sync').create();
+//
+// browserSync.init({
+// 	server: "./"
+// });
+// browserSync.stream();
 
 gulp.task('default', function() {
-	console.log('hello world!');
+	gulp.watch('sass/**/*.scss',['styles']);
 });
 
 gulp.task('styles', function() {
